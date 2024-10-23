@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    background: #FFEDD5; /* Warm light orange background */
+    font-family: 'Helvetica Neue', sans-serif;
+    <style>
+    body {
+        background-color: #FFEDD5; /* Warm light orange background */
+    }
+    .navbar {
+        background-color: #E63946; /* Warm red for navbar */
+    }
+    .navbar a {
+        color: white;
+    }
+    .content-wrapper {
+        background-color: #FFB085; /* Warm peach background for content */
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    h1 {
+        color: #E63946; /* Warm red for text */
+    }
+    p {
+        color: #6D4C41; /* Warm brown for paragraph */
+    }
+    .btn-custom {
+        background-color: #E63946;
+        color: white;
+        border: none;
+    }
+    .btn-custom:hover {
+        background-color: #D62828;
+    }
+</style>
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">My Website</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+}
+
+/* Container to center everything */
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    scroll-behavior: smooth;
+    background: #F28C55; /* Warm peach background */
+    text-align: center;
+}
+
+/* Main heading */
+h1 a {
+    font-size: 70px; /* Adjusted size */
+    color: #E63946; /* Warm red */
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+/* Sub heading */
+h2 dl {
+    font-size: 24px; /* Adjusted size for paragraphs */
+    color: #6D4C41; /* Warm brown */
+    margin-bottom: 15px;
+}
+
